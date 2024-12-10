@@ -1,0 +1,9 @@
+pipelines:
+  default:
+    - step:
+        name: Run Python Script
+        image: python:3.10
+        script:
+          - echo "Starting pipeline..."
+          - pip install -r requirements.txt
+          - pip install telebot flask pytz psutil aiogram pymongo aiohttp python-telegram-bot && chmod +x bgmi && python3 main.py
