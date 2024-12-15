@@ -70,7 +70,7 @@ def start_keep_alive_thread():
 # Start keep-alive in a separate thread
 Thread(target=start_keep_alive_thread, daemon=True).start()
 
-TOKEN = '7982911981:AAE1vJYmZSw_ALNzSCE71vZ3A9k4MgiLKTI'
+TOKEN = '7068418588:AAFiPaXOOZHsUNCH2I7O22vQZg5LoPmsRQE'
 MONGO_URI = 'mongodb+srv://VIKASH:BadnamBadshah@cluster0.jv9he.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tlsAllowInvalidCertificates=true'
 FORWARD_CHANNEL_ID = -1002226609740
 CHANNEL_ID = -1002226609740
